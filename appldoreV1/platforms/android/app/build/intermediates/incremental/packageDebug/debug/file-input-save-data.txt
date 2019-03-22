@@ -1,19 +1,21 @@
 #Internal package file, do not edit.
-#Fri Mar 22 15:25:18 IST 2019
+#Fri Mar 22 17:40:55 IST 2019
 4.path=www/homesense.html
 13.baseType=DIRECTORY
 8.set=ASSET
 6.path=www/cordova_plugins.js
 0.baseType=DIRECTORY
-10.path=www/cordova-js-src/android/nativeapiprovider.js
+10.path=www/help.html
 5.baseType=DIRECTORY
 1.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 8.path=www/img/logo.png
-12.path=www/cordova-js-src/exec.js
+12.path=www/cordova-js-src/android/nativeapiprovider.js
 3.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-14.path=www/css/index.css
+14.path=www/cordova-js-src/exec.js
+15.set=ASSET
 4.set=ASSET
 5.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+16.path=www/css/index.css
 7.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 11.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 9.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -21,6 +23,7 @@
 1.baseType=DIRECTORY
 11.set=ASSET
 0.set=ASSET
+15.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 14.baseType=DIRECTORY
 6.baseType=DIRECTORY
 7.set=ASSET
@@ -28,22 +31,25 @@
 3.set=ASSET
 2.baseType=DIRECTORY
 10.baseType=DIRECTORY
+15.baseType=DIRECTORY
 1.path=www/js/index.js
 7.baseType=DIRECTORY
 3.path=www/cordova.js
 10.set=ASSET
 5.path=classes.dex
 0.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-7.path=www/help.html
-11.path=www/homecontrol.html
-9.path=www/index.html
+7.path=www/js/slider.js
+11.path=www/index.html
+9.path=www/js/graph.js
 6.set=ASSET
 2.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-13.path=www/cordova-js-src/platform.js
+13.path=www/homecontrol.html
 11.baseType=DIRECTORY
 4.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+15.path=www/cordova-js-src/platform.js
 3.baseType=DIRECTORY
 6.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+16.baseType=DIRECTORY
 10.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 13.set=ASSET
 8.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -51,10 +57,12 @@
 8.baseType=DIRECTORY
 12.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 14.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+16.base=E\:\\GitHub\\HomeAutomationApp\\appldoreV1\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 9.set=ASSET
-count=15
+count=17
 12.baseType=DIRECTORY
 4.baseType=DIRECTORY
+16.set=ASSET
 5.set=DEX
 9.baseType=DIRECTORY
 0.path=www/cordova-js-src/android/promptbasednativeapi.js
