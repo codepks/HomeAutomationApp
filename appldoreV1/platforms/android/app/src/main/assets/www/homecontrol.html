@@ -3,7 +3,8 @@
   <head>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/slider.css">
-    <script src="js/slider.js"> </script>
+    <link rel="stylesheet" type="text/css" href="css/homecontrol.css">
+    
   </head>
   
   <body>
@@ -16,8 +17,15 @@
     </div>
 
     <!-- Use any element to open the sidenav -->
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; AD</span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; AD</br></span>
 
-  
+    <h1 align="center" >Home Control</h1>
+    <div class="button" align="center">
+          <button id="ledon" value="Add Todo Item">LED ON</button>
+          <button id="ledoff" value="Add Todo Item">LED OFF</button>  
+    </div>
+    
+    <script src="js/slider.js"> </script>
+    <script type="text/javascript" src="js/homecontrol.js"></script>
   </body>
 </html>
