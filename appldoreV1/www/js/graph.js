@@ -1,5 +1,5 @@
 
-//=================================CORE FOR HOMESENSE====================================
+//=================================CODE FOR HOMESENSE====================================
 var val = [];
 
 //Time interval of 30 seconds is set between each reading
@@ -25,6 +25,8 @@ $.ajax({
 	}
 });
 
+var blinkVar = document.getElementById('blinkman');
+blinkVar.innerHTML = "DATA LOADED"
 
 //Chart rendering
 var chart = new CanvasJS.Chart("chartContainer", {
@@ -94,4 +96,4 @@ if(val.length > 37)
 	
 }, 30000);
 
-//=================================CORE FOR SLIDER====================================
+//=================================CODE FOR BLINK MANIPULATION====================================
