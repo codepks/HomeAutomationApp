@@ -16,10 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-* {
-    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
-}
 
+body {
+	background: #f1c40f;
+}
 
 
 /* Landscape layout (with min-width) */
@@ -79,6 +79,10 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-.button {
-	margin: 20px;
+#heading{
+	margin-top: 20px;
+}
+
+#helpheading{
+	margin-top: 20px;
 }
