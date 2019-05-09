@@ -1,48 +1,51 @@
 <template>
-  <div class="page" data-name="catalog">
-    <div class="navbar">
-      <div class="navbar-inner sliding">
-        <div class="left">
-          <a href="#" class="link back">
-            <i class="icon icon-back"></i>
-            <span class="ios-only">Back</span>
-          </a>
+    <div class="page" data-name="catalog">
+        <div class="navbar">
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="ios-only">Back</span>
+                    </a>
+                </div>
+                <div class="title">{{product.title}}</div>
+            </div>
         </div>
-        <div class="title">{{product.title}}</div>
-      </div>
+        <div class="page-content">
+            <div class="block-title">{{product.title}}</div>
+            <div class="block block-strong">
+                {{#each product.description}}
+                
+                    <p>
+                        {{name}}
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </p>
+                
+
+                {{/each}}
+            </div>
+        </div>
     </div>
-    <div class="page-content">
-      <div class="block-title">{{product.title}}</div>
-      <div class="block block-strong">
-        {{#each product.description}}
-         <li> 
-          <label class="switch">
-              <input type="checkbox">
-              <span class="slider round"></span>
-          </label>
-          </li>
-          {{/each}}
-      </div>
-    </div>
-  </div>
 </template>
 <script>
-  return {
-    data: function () {
-      var productId = this.$route.params.id;
-      var currentProduct;
-      this.$root.products.forEach(function (product) {
-        if (product.id === productId) {
-          currentProduct = product;
+    return {
+        data: function () {
+            var productId = this.$route.params.id;
+            var currentProduct;
+            this.$root.products.forEach(function (product) {
+                if (product.id === productId) {
+                    currentProduct = product;
+                }
+            });
+            return {
+                product: currentProduct,
+            };
         }
-      });
-      return {
-        product: currentProduct,
-      };
-    }
-  };
+    };
 </script>
-
 <style>
     .switch {
         position: relative;
@@ -103,4 +106,8 @@
         .slider.round:before {
             border-radius: 50%;
         }
+
+    .togglePara{
+        object-position:right;
+    }
 </style>

@@ -19,17 +19,17 @@ var app  = new Framework7({
         {
           id: '1',
           title: 'Apple iPhone 8',
-          description: [ 'room1', 'room2', 'room3' ]
+          description: [{ name: "Austin" }, { name: "Justin" }]
         },
         {
           id: '2',
           title: 'Apple iPhone 8 Plus',
-          description: ['room1', 'room2', 'room3', 'room4']
+          description: [{ name: "Austin" }, { name: "Justin" }]
         },
         {
           id: '3',
           title: 'Apple iPhone X',
-          description: ['room1', 'room2']
+          description: [{ name: "Austin" }, { name: "Justin" }]
         },
       ]
     };
