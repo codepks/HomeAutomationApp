@@ -14,10 +14,14 @@
     <div class="page-content">
       <div class="block-title">{{product.title}}</div>
       <div class="block block-strong">
+        {{#each product.description}}
+         <li> 
           <label class="switch">
               <input type="checkbox">
               <span class="slider round"></span>
           </label>
+          </li>
+          {{/each}}
       </div>
     </div>
   </div>
